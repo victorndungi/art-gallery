@@ -1,0 +1,56 @@
+/* give the display property grid to the container */
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'navsection navsection navsection navsection navsection navsection'
+    'sidemenua sidemenua bannersection bannersection bannersection sidemenub'
+    'gallery gallery gallery gallery gallery gallery'
+    'footersection footersection footersection footersection footersection footersection'
+    ;
+}
+#navsection {
+      background-color: chocolate;
+      grid-area: navsection;
+}
+bannersection {
+      background-color: darkgreen;
+      grid-area: bannersection;
+}
+#gallery {
+      background-color: yellow;
+      grid-area: gallery;
+}
+#footersection {
+    background-color: yellowgreen;
+    grid-area: footersection;
+
+}
+#sidemenua {
+    background-color: black;
+    grid-area: sidemenua;
+
+}
+#sidemenub {
+    background-color: red;
+    grid-area: sidemenub;
+
+}
+/* when writing a media query position it at the bottom of the css file */
+@media only screen and( max-width: 600px){
+    body {
+        background-color: blue;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+    'navsection navsection navsection navsection navsection navsection'
+    'sidemenua sidemenua sidemenua sidemenua sidemenua sidemenua'
+    'bannersection bannersection bannersection bannersection bannersection bannersection'
+    'sidemenub sidemenub sidemenub sidemenub sidemenub sidemenub'
+    'gallery gallery gallery gallery gallery gallery'
+    'footersection footersection footersection footersection footersection footersection'
+    ;
+    }
+    }
+
+

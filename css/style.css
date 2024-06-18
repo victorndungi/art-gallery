@@ -1,0 +1,20 @@
+/*external css  */
+ /* using element name */
+ /* it will style any 
+ element with the same name that doesnt have an id or a class */
+ button {
+    background-color:white;
+    color: blue;
+    border-radius: 9px;
+ }
+/* class: all elements with class name will receive this styling */
+.paraClass {
+    text-decoration-line: overline underline;
+    color: blueviolet;
+}
+/* id, identification: uniqueness */
+#paraName {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: brown;
+
+}
