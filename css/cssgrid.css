@@ -17,7 +17,7 @@ bannersection {
       grid-area: bannersection;
 }
 #gallery {
-      background-color: yellow;
+     
       grid-area: gallery;
 }
 #footersection {
